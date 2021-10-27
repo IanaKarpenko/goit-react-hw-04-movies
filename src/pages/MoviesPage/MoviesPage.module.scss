@@ -1,0 +1,30 @@
+.formContainer {
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.inputStyle {
+    width: 250px;
+    height:19px;
+    font-weight: 600px;
+}
+
+.button{
+    width: 74px;
+    height:25px;
+    font-weight: 700;
+    background-color: black;
+    color: rgb(255, 150, 30);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+
+    &:hover,
+    &:focus {
+        background-color: rgb(255, 150, 30);
+        color: black;
+        cursor: pointer;
+    }
+}
