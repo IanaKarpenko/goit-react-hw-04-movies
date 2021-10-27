@@ -35,7 +35,7 @@ const MovieDetailsPage = ({location, history}) => {
         handledData.year = film.release_date.substring(0,4);
         film.vote_average ? 
             handledData.userScore = film.vote_average * 10 + '%'
-            : handledData = 'N/A';
+            : handledData.userScore = 'N/A';
         handledData.overview = film.overview;
         handledData.genres = film.genres;
         handledData.cast = film.credits.cast;
